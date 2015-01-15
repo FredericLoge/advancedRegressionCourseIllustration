@@ -4,7 +4,7 @@ shinyServer(function(input, output, session) {
   
   #Création des données montrées.
   donnees <- reactive({
-    x = (runif(n=100, 0, 3)) 
+    x = (runif(n=100, 0, 10)) 
     cbind.data.frame("x"=x, "y"=(x^2 + rnorm(n=100, 0, 1)))
   })
   
