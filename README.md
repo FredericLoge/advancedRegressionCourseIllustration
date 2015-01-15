@@ -1,3 +1,6 @@
 # advancedRegressionCourseIllustration
 
-This repository contains R code illustrating elements from an advanced regression course. This is an RShiny app, so there are two files essential to the program ui.R and server.R. The last file just contains the excecution command. Please note that RStudio has a button launching the app. Please also consider that to make the app work, the two R files MUST be in the exact same directory.
+Ce répertoire contient du code R illustrant des éléments d'un cours de régression avancée. C'est une appli RShiny, les deux fichiers principaux sont ui.R et server.R. Le dernier fichier ne contient que la commande d'exécution et l'installation du package shiny.
+
+Rmq 1 : Pour que l'appli marche, il faut que les deux fichiers soit dans le même répertoire.
+Rmq 2 : RStudio a un bouton permettant de lancer l'appli, donc vous pouvez vous contenter de ui.R et server.R.
